@@ -1,0 +1,100 @@
+{
+  "defaultLanguage": "en",
+  "supportedLanguages": ["en", "id"],
+  "fallbackLanguage": "en",
+  "extractionRules": {
+    "scanPaths": [
+      "src/components/**/*.{ts,tsx}",
+      "src/pages/**/*.{ts,tsx}",
+      "src/App.tsx"
+    ],
+    "excludePaths": [
+      "src/**/*.test.{ts,tsx}",
+      "src/**/*.spec.{ts,tsx}",
+      "src/i18n/**/*"
+    ],
+    "stringPatterns": [
+      "\"([^\"]+)\"",
+      "'([^']+)'",
+      "`([^`]+)`"
+    ]
+  },
+  "techTermsExclusions": [
+    "React",
+    "Next.js",
+    "TypeScript",
+    "JavaScript",
+    "Node.js",
+    "PostgreSQL",
+    "MongoDB",
+    "Flutter",
+    "React Native",
+    "iOS",
+    "Android",
+    "API",
+    "SDK",
+    "OAuth",
+    "JWT",
+    "GDPR",
+    "HIPAA",
+    "OWASP",
+    "PWA",
+    "CMS",
+    "SEO",
+    "Mobile App",
+    "Web App",
+    "Landing Page",
+    "POS",
+    "E-Commerce",
+    "MVP",
+    "IPO",
+    "FinTech",
+    "Laksana"
+  ],
+  "namespaceMapping": {
+    "HomePage": "home",
+    "ServicesPage": "services",
+    "WorkPage": "work",
+    "AboutPage": "about",
+    "CareersPage": "careers",
+    "TestimonialsPage": "testimonials",
+    "FAQPage": "faq",
+    "PricingPage": "pricing",
+    "ContactPage": "contact",
+    "BlogPage": "blog",
+    "SupportPage": "support",
+    "StatusPage": "status",
+    "PrivacyPage": "privacy",
+    "TermsPage": "terms",
+    "SecurityPage": "security",
+    "Navbar": "nav",
+    "Footer": "footer",
+    "Hero": "hero",
+    "CTA": "cta"
+  },
+  "pluralization": {
+    "enabled": true,
+    "rules": {
+      "en": {
+        "one": "{{count}} item",
+        "other": "{{count}} items"
+      },
+      "id": {
+        "one": "{{count}} item",
+        "other": "{{count}} item"
+      }
+    }
+  },
+  "dateTimeFormats": {
+    "en": {
+      "short": "MM/DD/YYYY",
+      "long": "MMMM D, YYYY",
+      "time": "h:mm A"
+    },
+    "id": {
+      "short": "DD/MM/YYYY",
+      "long": "D MMMM YYYY",
+      "time": "HH:mm"
+    }
+  }
+}

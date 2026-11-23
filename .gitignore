@@ -1,0 +1,82 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+out/
+
+# Vite / dev cache
+.vite/
+.vite_cache/
+node_modules/.vite/
+.cache/
+.cache-vite/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+.env.production.local
+.env.test.local
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+*.log.*
+pids/
+*.pid
+
+# Testing / coverage
+coverage/
+.nyc_output/
+.vitest/
+jest.config.ts
+jest-cache/
+test-results/
+playwright-report/
+screenshots/
+
+# i18n Reports & Artifacts
+.i18n-check-report.json
+.i18n-extraction-report.json
+
+# Editors & IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Package manager stores (optional)
+.pnpm-store/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Misc caches / build helpers
+.rpt2_cache/
+.parcel-cache/
+.cache-loader/
+.eslintcache
+.sass-cache/
+
+# Generated documentation / exports
+docs/
+public/build/
+
+# Secrets / keys
+*.pem
+*.key
+*.crt
